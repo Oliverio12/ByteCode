@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>ByteCode</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+    </head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<div id="top-header"> <!--Cabecera de Menu-->
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> +503 7063-6535</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> rodrigozavaleta12@gmail.com</a></li>
+						
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
+						<li><a href="#"><i class="fa fa-user-o"></i> Mi cuenta</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- Cabecera principal -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="#" class="logo">
+									<img src="./img/logo.png" alt="">
+								</a>
+							</div>
+						</div>
+						
+
+						<!-- Busqueda -->
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<select class="input-select">
+										<option value="0">Categorias</option>
+										<option value="1">Categoria 01</option>
+										<option value="1">Categoria 02</option>
+									</select>
+									<input class="input" placeholder="Search here">
+									<button class="search-btn">Buscar</button>
+								</form>
+							</div>
+						</div>
+
+						<div class="col-md-3 clearfix">
+							<!--favoritos-->
+							<div class="header-ctn">
+								<div>
+									<a href="#">
+										<i class="fa fa-heart-o"></i>
+										<span>Tus favoritos</span>
+										<div class="qty">2</div>
+									</a>
+								</div>
+								
+								<!-- Carrito -->
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Carrito</span>
+										<div class="qty">3</div>
+									</a>
+									<div class="cart-dropdown">
+										<div class="cart-list">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/product01.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Laptop</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/product02.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Audifonos</a></h3>
+													<h4 class="product-price"><span class="qty">3x</span>$140.00</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+										</div>
+										<div class="cart-summary">
+											
+											<h5>SUBTOTAL: $1,120.00</h5>
+										</div>
+										<div class="cart-btns">
+											<a href="#">Ver carrito</a>
+											<a href="/electro-master/checkout.html">Pagar <i class="fa fa-arrow-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Cart -->
+
+								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
+							</div>
+						</div>
+						<!-- /ACCOUNT -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+
+		<nav id="navigation">
+			<div class="container">
+				<div id="responsive-nav">
+					<ul class="main-nav nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Ofertas</a></li>
+						<li><a href="#">Categorias</a></li>
+						<li><a href="#">Laptops</a></li>
+						<li><a href="#">Telefonos</a></li>
+						<li><a href="#">Camaras</a></li>
+						<li><a href="#">Accesorios</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- BREADCRUMB -->
+		<div id="breadcrumb" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="breadcrumb-header">Checkout</h3>
+						<ul class="breadcrumb-tree">
+							<li><a href="#">Home</a></li>
+							<li class="active">Checkout</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /BREADCRUMB -->
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-7">
+						<!-- Billing Details -->
+						<div class="billing-details">
+							<div class="section-title">
+								<h3 class="title">Dirección de facturación</h3>
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="first-name" placeholder="Nombre">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="last-name" placeholder="Apellido">
+							</div>
+							<div class="form-group">
+								<input class="input" type="email" name="email" placeholder="Correo Electrónico">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="address" placeholder="Dirección">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="city" placeholder="Ciudad">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="country" placeholder="País">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="zip-code" placeholder="Código Postal">
+							</div>
+							<div class="form-group">
+								<input class="input" type="tel" name="tel" placeholder="Teléfono">
+							</div>
+							<div class="form-group">
+								<div class="input-checkbox">
+									<input type="checkbox" id="create-account">
+									<label for="create-account">
+										<span></span>
+										¿Crear cuenta?
+									</label>
+									<div class="caption">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+										<input class="input" type="password" name="password" placeholder="Ingresa tu Contraseña">
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- /Billing Details -->
+
+						<!-- Shiping Details -->
+						<div class="shiping-details">
+							<div class="section-title">
+								<h3 class="title">Dirección de envío</h3>
+							</div>
+							<div class="input-checkbox">
+								<input type="checkbox" id="shiping-address">
+								<label for="shiping-address">
+									<span></span>
+									¿Enviar a una dirección diferente?
+								</label>
+								<div class="caption">
+									<div class="form-group">
+										<input class="input" type="text" name="first-name" placeholder="Nombre">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="last-name" placeholder="Apellido">
+									</div>
+									<div class="form-group">
+										<input class="input" type="email" name="email" placeholder="Correo Electrónico">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="address" placeholder="Dirección">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="city" placeholder="Ciudad">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="country" placeholder="País">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="zip-code" placeholder="Código Postal">
+									</div>
+									<div class="form-group">
+										<input class="input" type="tel" name="tel" placeholder="Teléfono">
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- /Shiping Details -->
+
+						<!-- Order notes -->
+						<div class="order-notes">
+							<textarea class="input" placeholder="Order Notes"></textarea>
+						</div>
+						<!-- /Order notes -->
+					</div>
+
+					<!-- Order Details -->
+					<div class="col-md-5 order-details">
+						<div class="section-title text-center">
+							<h3 class="title">Tu Orden</h3>
+						</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>PRODUCTO</strong></div>
+								<div><strong>TOTAL</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>1x Nombre del Producto Va Aquí</div>
+									<div>$980.00</div>
+								</div>
+								<div class="order-col">
+									<div>2x Nombre del Producto Va Aquí</div>
+									<div>$980.00</div>
+								</div>
+							</div>
+							<div class="order-col">
+								<div>Envío</div>
+								<div><strong>GRATIS</strong></div>
+							</div>
+							<div class="order-col">
+								<div><strong>TOTAL</strong></div>
+								<div><strong class="order-total">$2940.00</strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									Transferencia Bancaria Directa
+								</label>
+								<div class="caption">
+									<p>Selecciona esta opción si deseas realizar una transferencia bancaria directa para pagar tu pedido.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-2">
+								<label for="payment-2">
+									<span></span>
+									Pago con Cheque
+								</label>
+								<div class="caption">
+									<p>Elige esta opción si deseas pagar tu pedido mediante un cheque. Asegúrate de que el cheque esté a nombre de nuestra empresa.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									Sistema Paypal
+								</label>
+								<div class="caption">
+									<p>Utiliza esta opción si prefieres realizar el pago a través del sistema Paypal. Serás redirigido a la plataforma de Paypal para completar la transacción.</p>
+								</div>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span>
+								He leído y acepto los <a href="#">términos y condiciones</a>
+							</label>
+						</div>
+						<a href="#" class="primary-btn order-submit">Realizar Pedido</a>
+					</div>
+					
+					<!-- /Order Details -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- NEWSLETTER -->
+		<div id="newsletter" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p>"Regístrate para el <strong>BOLETÍN DE NOTICIAS</strong>"
+							</p>
+							<form>
+								<input class="input" type="email" placeholder="Ingresa tu correo">
+								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Suscribirse</button>
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /NEWSLETTER -->
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- pie de página superior -->
+			<div class="section">
+				<!-- contenedor -->
+				<div class="container">
+					<!-- fila -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Acerca de Nosotros</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
+								</ul>
+							</div>
+						</div>
+		
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Categorías</h3>
+								<ul class="footer-links">
+									<li><a href="#">Ofertas</a></li>
+									<li><a href="#">Laptops</a></li>
+									<li><a href="#">Smartphones</a></li>
+									<li><a href="#">Cámaras</a></li>
+									<li><a href="#">Accesorios</a></li>
+								</ul>
+							</div>
+						</div>
+		
+						<div class="clearfix visible-xs"></div>
+		
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Información</h3>
+								<ul class="footer-links">
+									<li><a href="#">Acerca de Nosotros</a></li>
+									<li><a href="#">Contáctanos</a></li>
+									<li><a href="#">Política de Privacidad</a></li>
+									<li><a href="#">Pedidos y Devoluciones</a></li>
+									<li><a href="#">Términos y Condiciones</a></li>
+								</ul>
+							</div>
+						</div>
+		
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Servicios</h3>
+								<ul class="footer-links">
+									<li><a href="#">Mi Cuenta</a></li>
+									<li><a href="#">Ver Carrito</a></li>
+									<li><a href="#">Lista de Deseos</a></li>
+									<li><a href="#">Seguir mi Pedido</a></li>
+									<li><a href="#">Ayuda</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /fila -->
+				</div>
+				<!-- /contenedor -->
+			</div>
+			<!-- /pie de página superior -->
+		
+			<!-- pie de página inferior -->
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<!-- fila -->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<ul class="footer-payments">
+									<li><a href="#"><i class="fa fa-cc-visa" style="color:rgb(46, 42, 165)"></i></a></li>
+									<li><a href="#"><i class="fa fa-credit-card" style="color:rgb(255, 255, 255)"></i></a></li>
+									<li><a href="#"><i class="fa fa-cc-paypal" style="color:rgb(42, 165, 165)"></i></a></li>
+									<li><a href="#"><i class="fa fa-cc-mastercard" style="color:rgb(165, 42, 42)"></i></a></li>
+									
+								</ul>
+							</ul>
+							<span class="copyright">
+								<!-- El enlace a Colorlib no se puede eliminar. La plantilla está bajo licencia CC BY 3.0. -->
+								Derechos de autor &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Esta plantilla está hecha con <i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank">Colorlib</a>
+								<!-- El enlace a Colorlib no se puede eliminar. La plantilla está bajo licencia CC BY 3.0. -->
+							</span>
+						</div>
+					</div>
+					<!-- /fila -->
+				</div>
+				<!-- /contenedor -->
+			</div>
+			<!-- /pie de página inferior -->
+		</footer>
+		
+		<!-- /FOOTER -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
